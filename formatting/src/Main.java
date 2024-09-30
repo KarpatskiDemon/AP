@@ -15,10 +15,10 @@ public class Main {
         System.out.print("Введіть строку: ");
         String c = scanner.nextLine();
         //boolean
-        System.out.print("\nВведіть логічне значення (true/false): ");
+        System.out.print("Введіть логічне значення (true/false): ");
         boolean d = Boolean.parseBoolean(scanner.nextLine());
 
-        System.out.println("Вивід даних в різних форматах:");
+        System.out.println("\nВивід даних в різних форматах:");
         //8(1)
         System.out.printf("Ціле число(8): %o%n", a);
         //10(2)
