@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\nВведення даних:");
+        System.out.println("Введення даних:");
         //int
         System.out.print("Введіть ціле число (int): ");
         int a = Integer.parseInt(scanner.nextLine());
@@ -18,7 +18,7 @@ public class Main {
         System.out.print("Введіть логічне значення (true/false): ");
         boolean d = Boolean.parseBoolean(scanner.nextLine());
 
-        System.out.println("\nВивід даних в різних форматах:");
+        System.out.println("Вивід даних в різних форматах:");
         //8(1)
         System.out.printf("Ціле число(8): %o%n", a);
         //10(2)
